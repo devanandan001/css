@@ -1,0 +1,55 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2 {
+            color: green;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .internal-box {
+            background-color: lightyellow;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: red; text-align: center;">
+        Welcome to My Demo Website
+    </h1>
+
+    <h2>Internal CSS Example</h2>
+
+    <p>
+        This paragraph is styled using internal CSS.
+    </p>
+
+    <div class="internal-box">
+        This box uses internal CSS.
+    </div>
+
+    <div class="external-box">
+        This box uses external CSS.
+    </div>
+
+    <button style="background-color: blue; color: white; padding: 10px;">
+        Inline CSS Button
+    </button>
+
+</body>
+</html>
+```

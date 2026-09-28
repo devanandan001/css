@@ -1,0 +1,20 @@
+```css
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+.external-box {
+    background-color: orange;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
+```
